@@ -1,0 +1,185 @@
+.container-fluid{
+    .join{
+        padding-bottom: 20px;
+        text-align: center;
+        .img-control{           
+            position: relative;
+            .img-responsive{
+                margin-bottom: 30px;
+            }
+            .detail-mask{
+                text-align: center;
+                position: absolute;
+                top: 40px;
+                width: 100%;
+                span{
+                    text-decoration: underline;
+                    font-size: 44px;
+                    margin-bottom: 2px;
+                }
+                p{                    
+                    padding: 12px 14px 0 14px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .join-flow{
+        background: #e4e4e4;
+        .flow-list{
+            padding-top: 30px;
+            .mask-contorl{
+                text-align: center;
+                color: #221815;
+                height: 246px;
+                margin-bottom: 20px;
+                .flow-title{
+                    width: 100px;
+                    height: 100px;
+                    text-align: center;
+                    line-height: 100px;
+                    font-size: 36px;
+                    color: #fff;
+                    margin: 0 auto;
+                    background: url(../img/other/bg_list.png);
+                }
+                span{
+                    font-size: 28px;
+                    display: inline-block;
+                    line-height: 60px;
+                }
+                p{
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+            }
+        }       
+    }
+    .model{
+        padding-bottom: 0;
+        .coltor-center{
+            text-align: center;
+            padding-top: 30px ;
+            .img-scale{
+                overflow: hidden;             
+                .img-responsive{
+                    transition: all ease-in-out .8s;                  
+                    
+                }
+                .img-responsive:hover{
+                   transform: scale(1.1);
+                }
+            }
+            .ch-dian{
+                font-size: 24px;
+                padding-top: 10px;
+                padding-bottom: 0;
+            }
+            .en-dian{
+                font-size: 14px;
+                padding-bottom: 20px;
+            }
+            p{
+                font-size: 16px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+    .run-ding{
+        padding-top: 0 0 50px 0;
+    }
+}
+//设配
+@media screen and (min-width:1251px){
+    .container-fluid {
+        .join{
+            .img-control{
+                .detail-mask{
+                    top: 45px;
+                    span{
+                        font-size: 48px;
+                    }
+                    p{
+                        font-size: 28px;
+                    }
+                }
+            }
+        }      
+    }
+}
+@media screen and (min-width:992px)  and (max-width:1249px){
+    .container-fluid {
+        .join{
+            .img-control{
+                .detail-mask{
+                    
+                    span{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:768px)  and (max-width:991px){
+    .container-fluid {
+        .join{
+            .img-control{
+                .detail-mask{
+                    top: 26px;
+                    span{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+} 
+@media screen and (max-width:767px){
+    .container-fluid {
+        .join{
+            .mask-contorl{
+                padding: 0 5px;
+                margin-bottom: 0px;
+                .img-control{
+                    .detail-mask{
+                        top: 14px;                 
+                        span{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }           
+        }
+        .model{
+            .coltor-center{
+                padding: 30px 0 0 0;
+            }
+        }       
+    }
+}
+@media screen and (max-width:450px){ 
+    .container-fluid{
+        .join-flow{
+            .flow-list{
+                .mask-contorl{
+                   span{
+                       font-size: 20px;
+                   } 
+                   p{
+                       font-size: 14px;
+                   }
+                } 
+            }
+        }
+    }   
+}
